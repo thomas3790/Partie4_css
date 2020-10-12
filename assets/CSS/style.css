@@ -1,0 +1,59 @@
+body {
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+}
+
+div {
+    margin: 10px;
+}
+
+.item1 {
+    background-color: rgb(211, 8, 8);
+    padding: 10%;
+}
+
+.item2 {
+    background-color: rgb(48, 148, 165);
+    padding: 10%;
+}
+
+.item3 {
+    background-color: rgb(28, 158, 119);
+    padding: 10%;
+}
+
+.item4 {
+    background-color: rgb(117, 27, 155);
+    padding: 10%;
+}
+
+.item5 {
+    background-color: rgb(188, 137, 35);
+    padding: 10%;
+}
+
+.item6 {
+    background-color: rgb(35, 127, 188);
+    padding: 10%;
+}
+
+.item7 {
+    background-color: rgb(255, 0, 4);
+    padding: 10%;
+}
+
+.item8 {
+    background-color: rgb(31, 155, 97);
+    padding: 10%;
+}
+
+.item9 {
+    background-color:rgb(37, 52, 124);
+    padding: 10%;
+}
